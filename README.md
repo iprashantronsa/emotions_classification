@@ -1,4 +1,5 @@
-![Uploading bigstock-group-of-sad-people-and-a-hap-12165734.jpg…]()
+
+![bigstock-group-of-sad-people-and-a-hap-12165734](https://github.com/user-attachments/assets/bb0a4a8f-5afc-4b44-9663-25c01af2dbc5)
 
 This project demonstrates the use of a Convolutional Neural Network (CNN) for classifying images into two categories: "Happy" and "Sad." The model is trained on a dataset of labeled images, with the goal of accurately predicting the emotional expression in new images
 
