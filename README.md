@@ -4,56 +4,57 @@ This project demonstrates the use of a Convolutional Neural Network (CNN) for cl
 
 ### Project Overview
 
-####Objective:
+#### Objective:
 To build and train a deep learning model that can classify images as either "Happy" or "Sad."
 
-####Dataset: 
+#### Dataset: 
 The project uses a custom dataset of images stored in Google Drive. The images are categorized into "happy" and "sad" folders.
 
-####Tools and Libraries:
+#### Tools and Libraries:
 The project is implemented in Python using TensorFlow and Keras for deep learning, along with OpenCV for image processing.
 
-###Key Features
-Image Preprocessing:
-The images are loaded, and any corrupted or non-image files are removed.
-The images are resized and normalized to prepare them for model training.
+### Key Features
 
-####Model Architecture:
-The model is built using a Convolutional Neural Network (CNN) with several layers of convolution, max pooling, and dense layers.
-The final output layer uses a sigmoid activation function for binary classification.
+#### Image Preprocessing:
+- The images are loaded, and any corrupted or non-image files are removed.
+- The images are resized and normalized to prepare them for model training.
 
-####Training:
-The model is trained on 70% of the dataset, with 20% used for validation and 10% for testing.
-Early stopping and TensorBoard are used to monitor the training process and prevent overfitting.
+#### Model Architecture:
+- The model is built using a Convolutional Neural Network (CNN) with several layers of convolution, max pooling, and dense layers.
+- The final output layer uses a sigmoid activation function for binary classification.
 
-####Evaluation:
-The model is evaluated using Precision, Recall, and Accuracy metrics on the test set.
-The performance metrics are visualized to understand the model's behavior.
+#### Training:
+- The model is trained on 70% of the dataset, with 20% used for validation and 10% for testing.
+- Early stopping and TensorBoard are used to monitor the training process and prevent overfitting.
 
-####Prediction:
-The trained model is used to predict the emotion in new images. The model outputs "happy" if the prediction is less than 0.5, otherwise, it outputs "sad."
+#### Evaluation:
+- The model is evaluated using Precision, Recall, and Accuracy metrics on the test set.
+- The performance metrics are visualized to understand the model's behavior.
 
-###Installation
-To run this project, you need to have the following libraries installed:
-pip install tensorflow opencv-python matplotlib
+#### Prediction:
+- The trained model is used to predict the emotion in new images. The model outputs "happy" if the prediction is less than 0.5, otherwise, it outputs "sad."
 
-###How to Run
+### Installation
+ -To run this project, you need to have the following libraries installed:
+    pip install tensorflow opencv-python matplotlib
 
-####Data Preparation:
-Place the images into appropriate "happy" and "sad" folders.
-Ensure that the directory structure matches the one used in the code.
+### How to Run
 
-####Training the Model:
-Run the notebook to preprocess the images, build the model, and train it on your dataset.
+#### Data Preparation:
+- Place the images into appropriate "happy" and "sad" folders.
+- Ensure that the directory structure matches the one used in the code.
 
-####Evaluation and Prediction:
-Evaluate the model on the test dataset and use it to classify new images.
+#### Training the Model:
+- Run the notebook to preprocess the images, build the model, and train it on your dataset.
 
-####Model Saving:
-The trained model can be saved to Google Drive or your local directory for future use.
+#### Evaluation and Prediction:
+- Evaluate the model on the test dataset and use it to classify new images.
 
-###Results
-The model achieves high precision, recall, and accuracy on the test set, demonstrating its effectiveness in emotion classification.
+#### Model Saving:
+- The trained model can be saved to Google Drive or your local directory for future use.
 
-Contributing
+### Results
+- The model achieves high precision, recall, and accuracy on the test set, demonstrating its effectiveness in emotion classification.
+
+### Contributing
 If you'd like to contribute to this project, please fork the repository and submit a pull request.
